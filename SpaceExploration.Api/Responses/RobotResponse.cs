@@ -12,13 +12,19 @@ public class RobotResponse
 
     public RobotResponse(Robot robot)
     {
-        Id = robot.Id;
-        LocationInArea = robot.LocationInArea;
-        Direction = robot.Direction;
-        AssignedArea = new AssignedAreaResponse()
+        if (robot is not null)
         {
-            Id = robot.AssignedArea.Id,
-            Size = robot.AssignedArea.Size
-        };
+            Id = robot.Id;
+            LocationInArea = robot.LocationInArea;
+            Direction = robot.Direction;
+            if (robot.AssignedArea is not null)
+            {
+                AssignedArea = new AssignedAreaResponse()
+                {
+                    Id = robot.AssignedArea.Id,
+                    Size = robot.AssignedArea.Size
+                };
+            }
+        }
     }
 }

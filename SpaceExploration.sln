@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceExploration.Data", "Sp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceExploration.Domain.Test", "SpaceExploration.Domain.Test\SpaceExploration.Domain.Test.csproj", "{552A15C7-DDBE-459E-BFBD-0EBE21A3093C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceExploration.IntegrationTest", "SpaceExploration.IntegrationTest\SpaceExploration.IntegrationTest.csproj", "{655AB9C1-41C3-4138-8156-FE915C2E1A30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{552A15C7-DDBE-459E-BFBD-0EBE21A3093C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{552A15C7-DDBE-459E-BFBD-0EBE21A3093C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{552A15C7-DDBE-459E-BFBD-0EBE21A3093C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{655AB9C1-41C3-4138-8156-FE915C2E1A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{655AB9C1-41C3-4138-8156-FE915C2E1A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{655AB9C1-41C3-4138-8156-FE915C2E1A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{655AB9C1-41C3-4138-8156-FE915C2E1A30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
